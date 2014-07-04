@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="toolbar-button.css" type="text/css"?>
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<toolbarpalette id="BrowserToolbarPalette">
+  <toolbarbutton id="jlekstrand-net-hidpi-button"
+                 class="toolbarbutton-1 chromeclass-toolbar-additional"
+                 label="Enable HiDPI"
+                 tooltiptext="Enable/Disable HiDPI"
+                 type="checkbox"
+                 oncommand="HiDPI.toggleHiDPI(event);" />
+</toolbarpalette>
+
+<window id="main-window">
+    <script type="application/javascript"
+            src="chrome://firefox-hidpi/content/toolbar-button.js" />
+</window>
+
+</overlay>

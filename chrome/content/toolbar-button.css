@@ -1,0 +1,9 @@
+#jlekstrand-net-hidpi-button {
+    list-style-image: url("chrome://firefox-hidpi/content/hidpi-button-24.png");
+    -moz-image-region: rect(0px, 24px, 24px, 0px)
+}
+
+toolbar[iconsize="small"] #jlekstrand-net-hidpi-button {
+    list-style-image: url("chrome://firefox-hidpi/content/hidpi-button-16.png");
+    -moz-image-region: rect(0px, 16px, 16px, 0px)
+}

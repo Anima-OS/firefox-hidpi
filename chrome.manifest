@@ -1,0 +1,3 @@
+content firefox-hidpi chrome/content/
+overlay chrome://browser/content/browser.xul chrome://firefox-hidpi/content/toolbar-button.xul
+style chrome://browser/content/customizeToolbar.xul chrome://firefox-hidpi/content/toolbar-button.css
